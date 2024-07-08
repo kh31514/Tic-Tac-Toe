@@ -1,0 +1,52 @@
+.select {
+  box-shadow: 7px 7px #FF9442;
+  font-style: italic;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+.box {
+  width: 140px;
+  height: 140px;
+  border: 3px solid #FFCBA3;
+  display: flex;
+  align-items: center;
+  background-color: #FFFBDE;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+body {
+  background-color: #FFCBA3;
+}
+
+.player {
+  background-color: #FFFBDE;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
